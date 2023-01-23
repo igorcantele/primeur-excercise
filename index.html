@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8" />
+        <title>Primeur autocomplete</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+                href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+                rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/layout.css" />
+        <link rel="stylesheet" href="styles/text.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <script type="module" src="js/items.js" /></script>
+        <script type="module" src="js/helpers.js" /></script>
+        <script type="module" src="js/autocomplete.js" /></script>
+        <script type="module" src="js/theme-properties.js" /></script>
+        <script type="module" src="js/main.js" /></script>
+    </head>
+
+    <body>
+        <a href="#main-section" id="skiplink" class="skiplink" tabindex="0">Skip to main content</a>
+        <header class="flex flex-row justify-content-between align-items-center">
+            <p>Autocomplete project: Cantele Igor</p>
+            <input type="checkbox" id="mode-switch" aria-label="Change color theme">
+            <label for="mode-switch" class="mode-switch"></label>
+        </header>
+        <section class="flex flex-col justify-content-center align-items-center" aria-label="Main content" id="main-section">
+            <h1 class="centered-text">Autocomplete search fields</h1>
+            <p class="centered-text">Search for covers for IPhone.</p>
+            <form autocomplete="off" class="search-bar-container flex flex-row align-items-start justify-content-center">
+                <input id="search-bar-container__input" type="text" name="item" placeholder="IPhone..." aria-label="Search bar for items">
+                <button id="search-bar-container__submit" aria-label="Submit research">Submit</button>
+                <div id="parent" class="suggestions-container"></div>
+            </form>
+        </section>
+    </body>
+
+</html>

@@ -1,0 +1,17 @@
+[
+  { "id": 1, "screenName": "IPhone X White Cover", "product": "cover", "color": "white"},
+  { "id": 1, "screenName": "IPhone 9 White Cover", "product": "cover", "color": "white"},
+  { "id": 1, "screenName": "IPhone 6 White Cover", "product": "cover", "color": "white"},
+  { "id": 1, "screenName": "IPhone 13 White Cover", "product": "cover", "color": "white"},
+  { "id": 1, "screenName": "IPhone 6S White Cover", "product": "cover", "color": "white"},
+  { "id": 1, "screenName": "IPhone X Black Cover", "product": "cover", "color": "black"},
+  { "id": 1, "screenName": "IPhone 9 Black Cover", "product": "cover", "color": "black"},
+  { "id": 1, "screenName": "IPhone 6 Black Cover", "product": "cover", "color": "black"},
+  { "id": 1, "screenName": "IPhone 13 Black Cover", "product": "cover", "color": "black"},
+  { "id": 1, "screenName": "IPhone 6S Black Cover", "product": "cover", "color": "black"},
+  { "id": 1, "screenName": "IPhone X Yellow Cover", "product": "cover", "color": "yellow"},
+  { "id": 1, "screenName": "IPhone 9 Yellow Cover", "product": "cover", "color": "yellow"},
+  { "id": 1, "screenName": "IPhone 6 Yellow Cover", "product": "cover", "color": "yellow"},
+  { "id": 1, "screenName": "IPhone 13 Yellow Cover", "product": "cover", "color": "yellow"},
+  { "id": 1, "screenName": "IPhone 6S Yellow Cover", "product": "cover", "color": "yellow"}
+]
